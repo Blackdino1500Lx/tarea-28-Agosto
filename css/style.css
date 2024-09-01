@@ -1,0 +1,83 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+}
+header{
+    padding: 20px 0;
+    background-color: #333;
+    text-align: center;
+
+}
+h1,h2{
+    color: #333;
+    text-align: center;
+}
+nav{
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    color: #333;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: backround-color 0,3s ease-in-out;
+}
+nav a:hover{
+    background-color:#333;
+    color: #fff;
+}
+.contenedor{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0,1) ;
+}
+p{
+    line-height: 1,6;
+    color: #666;
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.lista2{
+    background-color: #f3f3f3;
+    width: 600;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+.boton{
+    
+    display: inline-block;
+padding: 10px 20px;
+margin: 10px 0;
+background-color: #28a745;
+color: #f2f2f2;
+text-decoration: none;
+border-radius: 5px;
+transition: backround-color 0,3s ease-in-out;
+}
+.boton:hover{
+    background-color: #218838;
+    color: #f2f2f2;
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
